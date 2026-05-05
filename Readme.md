@@ -1,9 +1,6 @@
 # User Registration System
 
-This project details the implementation of a user registration system. The design uses a 
-single‑page interface with the ABU logo. HTML5 provides the structural foundation, while CSS3 Grid ensures a flexible and responsive layout across devices.
-
-On the server side, PHP is integrated with PDO to handle form submissions securely. PDO’s parameterized queries protect against SQL injection, ensuring safe database interaction and reliable data storage.
+This project focuses on building a responsive, grid‑based user registration system. The interface is designed as a clean, single‑page layout that prominently features the ABU logo for branding. The front end is structured with HTML5 for semantic clarity and CSS3 Grid for a flexible, responsive layout, while the back end leverages PHP with PDO to ensure secure database interaction.
 
 ## Features
 - **Secure Backend**: Implements PHP Data Objects (PDO) with prepared statements to prevent SQL Injection.
