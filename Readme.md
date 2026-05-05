@@ -14,14 +14,14 @@ On the server side, PHP is integrated with PDO to handle form submissions secure
 
 ![Registration Form Screenshot](form_preview.png)
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Front-end**: HTML5, CSS3
 - **Back-end**: PHP 8.x
 - **Database**: MySQL
 - **Driver**: PDO
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 1. **Clone the repository**:
    ```bash
