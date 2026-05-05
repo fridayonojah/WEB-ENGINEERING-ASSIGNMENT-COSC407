@@ -1,0 +1,111 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    overflow: hidden; 
+}
+
+.registration-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    width: 90%;
+  
+    max-width: 800px;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-placeholder {
+    width: 50px;
+    height: 50px;
+    background: #056a38;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 1.4rem;
+}
+
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 15px 25px; 
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Make specific items span both columns */
+.full-width {
+    grid-column: span 2;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+    font-size: 0.85rem;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.radio-group, .checkbox-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+
+textarea {
+    height: 60px; 
+    resize: none;
+}
+
+.button-group {
+    grid-column: span 2; 
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button[type="submit"] { background: #056a38; color: white; }
+button[type="reset"] { background: #f1f1f1; color: #666; }
