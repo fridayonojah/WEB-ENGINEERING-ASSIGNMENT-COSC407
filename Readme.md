@@ -25,7 +25,7 @@ On the server side, PHP is integrated with PDO to handle form submissions secure
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/registration-system.git
+   git clone https://github.com/fridayonojah/WEB-ENGINEERING-ASSIGNMENT-COSC407.git
    ```
 
 2. **Database Configuration**:
