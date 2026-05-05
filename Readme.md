@@ -7,7 +7,7 @@ On the server side, PHP is integrated with PDO to handle form submissions secure
 
 ## Features
 - **Secure Backend**: Implements PHP Data Objects (PDO) with prepared statements to prevent SQL Injection.
-- **Responsive Design**: Adapts to different screen widths while maintaining its layout structure.
+- **Responsive Design**: Implemented a single screen design that adapts to any screen sizes.
 - **Data Validation**: Includes both HTML5 client-side validation and PHP server-side sanitization.
 
 ## Registration Form Preview
